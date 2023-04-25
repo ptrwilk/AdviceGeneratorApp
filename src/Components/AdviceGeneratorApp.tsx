@@ -33,7 +33,7 @@ const AdviceGeneratorApp = () => {
           <Typography className={styles["advice"]}>
             Advice #{advice.id}
           </Typography>
-          <Typography className={styles["text"]}>{advice.advice}</Typography>
+          <Typography className={styles["text"]}>"{advice.advice}"</Typography>
           <img
             className={styles["img-pattern"]}
             src={isLarge ? PatternDividerDesktop : PatternDividerMobile}
